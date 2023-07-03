@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Upload</title>
+  <style>
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #2196F3;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>File Upload</h1>
+    <form id="uploadForm">
+      <label for="file"></label>
+      <input type="file" name="file" id="fileInput">
+      <label for="url">Enter URL</label>
+      <input type="url" name="url" id="urlInput">
+      <button type="submit">Upload</button>
+      <h1 style="text-align: center;"> Uploaded URL and Files</h1>
+    <ul id="fileList"></ul>
+    </form>
+  <script src="file.js"></script>
+</body>
+</html>
